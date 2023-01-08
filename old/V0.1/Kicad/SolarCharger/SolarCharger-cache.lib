@@ -1,0 +1,282 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Battery_2_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT
+#
+DEF Battery_2_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Battery_2_MountingHole_Pad-User_library-SamacSys_Parts-HVolt_sub-system-FIT" 0 175 50 H V C CNN
+F2 "SamacSys_Parts:Square_PAD_homemade" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+S 80 -25 -80 155 0 1 0 F
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_282834-2
+#
+DEF Library_Loader_282834-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "Library_Loader_282834-2" 650 200 50 H V L CNN
+F2 "282834-2_1" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" 650 -100 50 H I L CNN "Description"
+F5 "571-282834-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "282834-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_AP9214L-AN-HSBR-7
+#
+DEF Library_Loader_AP9214L-AN-HSBR-7 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "Library_Loader_AP9214L-AN-HSBR-7" 850 200 50 H V L CNN
+F2 "AP9214LANHSBR7" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP9214L.pdf" 850 0 50 H I L CNN
+F4 "Battery Management 1-Cell IC Protection N-Ch w/ Auto Wake" 850 -100 50 H I L CNN "Description"
+F5 "0.6" 850 -200 50 H I L CNN "Height"
+F6 "621-AP9214L-AN-HSBR7" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP9214L-AN-HSBR-7?qs=icAhCOE9Tbjpe%252BsX8QE8Tw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP9214L-AN-HSBR-7" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X S1 1 0 0 200 R 50 50 0 0 P
+X VSS 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 P
+X NC 4 0 -300 200 R 50 50 0 0 N
+X VM 5 1000 0 200 L 50 50 0 0 P
+X S2 6 1000 -100 200 L 50 50 0 0 P
+X EP 7 1000 -200 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_BQ24210DQCR
+#
+DEF Library_Loader_BQ24210DQCR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "Library_Loader_BQ24210DQCR" 1050 200 50 H V L CNN
+F2 "SON50P200X300X80-11N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq24210" 1050 0 50 H I L CNN
+F4 "Battery Management 800mA,Sgl-Inp,Li-Ion Solar Batt Charger" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "595-BQ24210DQCR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24210DQCR?qs=O1HRStiETCh94UK1Y6ZDYg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BQ24210DQCR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+X VBUS 1 0 0 200 R 50 50 0 0 P
+X BAT 10 1200 0 200 L 50 50 0 0 P
+X EP 11 600 -900 200 U 50 50 0 0 P
+X ISET 2 0 -100 200 R 50 50 0 0 P
+X VSS 3 0 -200 200 R 50 50 0 0 P
+X VTSB 4 0 -300 200 R 50 50 0 0 P
+X TS 5 0 -400 200 R 50 50 0 0 P
+X ~PG 6 1200 -400 200 L 50 50 0 0 P
+X ~EN 7 1200 -300 200 L 50 50 0 0 P
+X ~CHG 8 1200 -200 200 L 50 50 0 0 P
+X VDPM 9 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_C0805C475M8RACTU
+#
+DEF Library_Loader_C0805C475M8RACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_C0805C475M8RACTU" 350 150 50 H V L CNN
+F2 "CAPC2012X140N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2444426.pdf" 350 -50 50 H I L CNN
+F4 "Cap Ceramic 4.7uF 10V X7R 20% Pad SMD 0805 125C T/R" 350 -150 50 H I L CNN "Description"
+F5 "1.4" 350 -250 50 H I L CNN "Height"
+F6 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "C0805C475M8RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_ERJP6WF1303V
+#
+DEF Library_Loader_ERJP6WF1303V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "Library_Loader_ERJP6WF1303V" 550 150 50 H V L CNN
+F2 "RESC2012X75N" 550 50 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7708607P" 550 -50 50 H I L CNN
+F4 "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.75" 550 -250 50 H I L CNN "Height"
+F6 "7708607P" 550 -350 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7708607P" 550 -450 50 H I L CNN "RS Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJP6WF1303V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_FSV360FP
+#
+DEF Library_Loader_FSV360FP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "Library_Loader_FSV360FP" 500 250 50 H V L CNN
+F2 "SS12FP" 500 150 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-30/584853.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 60V 3A Schottky Barrier Rectifier" 500 -50 50 H I L CNN "Description"
+F5 "1" 500 -150 50 H I L CNN "Height"
+F6 "512-FSV360FP" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSV360FP?qs=tqW9UTzndZzmC5MffD9P5Q%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "FSV360FP" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 500 0 600 0 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_NTCS0805E3103GMT
+#
+DEF Library_Loader_NTCS0805E3103GMT RT 0 30 Y Y 1 F N
+F0 "RT" 650 300 50 H V L CNN
+F1 "Library_Loader_NTCS0805E3103GMT" 650 200 50 H V L CNN
+F2 "THRMC2012X95N" 650 100 50 H I L CNN
+F3 "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf" 650 0 50 H I L CNN
+F4 "VISHAY - NTCS0805E3103GMT - NTC SMD 0805 NiSn 10K 2% medium B T&R e3" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "594-NTCS0805E3103GMT" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3103GMT?qs=%2FWiulJ9oly6JOEP3dlw6sg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NTCS0805E3103GMT" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_SML-H12V8TT86
+#
+DEF Library_Loader_SML-H12V8TT86 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "Library_Loader_SML-H12V8TT86" 500 250 50 H V L BNN
+F2 "LEDC2012X90N" 500 150 50 H I L BNN
+F3 "http://uk.rs-online.com/web/p/products/1332888P" 500 50 50 H I L BNN
+F4 "EXCELED series chip LED: ROHM\\'s chip LED lineup consists of standard type,top-view type, side-view type and reverse-mount type." 500 -50 50 H I L BNN "Description"
+F5 "0.9" 500 -150 50 H I L BNN "Height"
+F6 "1332888P" 500 -250 50 H I L BNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/1332888P" 500 -350 50 H I L BNN "RS Price/Stock"
+F8 "ROHM Semiconductor" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SML-H12V8TT86" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_SRN6045-4R7Y
+#
+DEF Library_Loader_SRN6045-4R7Y L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "Library_Loader_SRN6045-4R7Y" 650 150 50 H V L CNN
+F2 "SRN6045_1" 650 50 50 H I L CNN
+F3 "https://www.bourns.com/data/global/pdfs/SRN6045.pdf" 650 -50 50 H I L CNN
+F4 "Power Inductor semi-shielded SMD 4.7uH Bourns SRN6045 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 4.7 uH +/-30% 4A Idc" 650 -150 50 H I L CNN "Description"
+F5 "652-SRN6045-4R7Y" 650 -350 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Bourns/SRN6045-4R7Y?qs=opBjA1TV902tB4tumIiZhg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F7 "Bourns" 650 -550 50 H I L CNN "Manufacturer_Name"
+F8 "SRN6045-4R7Y" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_TPS259620DDAR
+#
+DEF Library_Loader_TPS259620DDAR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "Library_Loader_TPS259620DDAR" 1450 200 50 H V L CNN
+F2 "SOIC127P600X170-9N" 1450 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/TPS2596" 1450 0 50 H I L CNN
+F4 "Hot Swap Voltage Controllers 2.7-19V 130MA-2A SURGE CLAMPING EFUSE" 1450 -100 50 H I L CNN "Description"
+F5 "1.7" 1450 -200 50 H I L CNN "Height"
+F6 "595-TPS259620DDAR" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259620DDAR?qs=XeJtXLiO41RogCpRV1l%252BSg%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS259620DDAR" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -800 200 -800 200 100 N
+X GND_1 1 0 0 200 R 50 50 0 0 P
+X DVDT 2 0 -100 200 R 50 50 0 0 P
+X EN/UVLO 3 0 -200 200 R 50 50 0 0 P
+X IN 4 0 -300 200 R 50 50 0 0 P
+X OUT 5 1600 -300 200 L 50 50 0 0 P
+X ~FLT 6 1600 -200 200 L 50 50 0 0 P
+X ILM 7 1600 -100 200 L 50 50 0 0 P
+X OVLO/OVCSEL 8 1600 0 200 L 50 50 0 0 P
+X GND_2 9 800 -1000 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_TPS61085TDGKR
+#
+DEF Library_Loader_TPS61085TDGKR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "Library_Loader_TPS61085TDGKR" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tps61085t" 950 0 50 H I L CNN
+F4 "18.5V, 2A, 650kHz, 1.2MHz Step-Up DC-DC Converter with Forced PWM Mode (extended temp range)" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "595-TPS61085TDGKR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61085TDGKR?qs=%2Fqzd9s%252BcLd4U2Z7ineHARw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS61085TDGKR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X COMP 1 0 0 200 R 50 50 0 0 P
+X FB 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X PGND 4 0 -300 200 R 50 50 0 0 P
+X SW 5 1100 -300 200 L 50 50 0 0 P
+X IN 6 1100 -200 200 L 50 50 0 0 P
+X FREQ 7 1100 -100 200 L 50 50 0 0 P
+X SS 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
