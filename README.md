@@ -36,7 +36,7 @@
 <h3 align="center">Making Devices</h3>
 
   <p align="center">
-    Open Source projects where we struggle with engineering, electronics, coding and who knows what else... The solar charger uses the energy from a solar panel (using MPPT) to charge a Li-Ion rechargeable battery and provide an stable 5V - 1A output.
+    Open Source projects where we struggle with engineering, electronics, coding and who knows what else... The solar charger uses the energy from a solar panel (using MPPT) to charge a Li-Ion rechargeable battery and provide an stable 5V - 0.6A output.
   </p>
 </div>
 
@@ -72,9 +72,7 @@
 
 [![Bytes Counter Shot][product-screenshot]](https://github.com/makingdevices/SolarCharger)
 
-The solar charger uses the energy from a solar panel (using MPPT) to charge a Li-Ion rechargeable battery and provide an stable 5V - 1A output. The project was created to test a small circuit before using it with other projects. 
-
-This device is under development, so I do encourage you to not assembly, order any PCB or use any software from this repository until the project is finished.
+The solar charger uses the energy from a solar panel (using MPPT) to charge a Li-Ion rechargeable battery and provide an stable 5V - 0.6A output. The project was created to test a small circuit before using it with other projects. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,21 +96,22 @@ NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
 
 Instructions of use:
 
-- As soon as you connect the main power, the output voltage will be activated
+- As soon as you connect a battery, the output voltage will be activated. 
+- The solar panel can go from 3V to 20V, as it uses the chip BQ24210.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Assembly New Board
-- [ ] Test with electronic Load.
-- [ ] Validate ratings
+- [x] Assembly New Board
+- [x] Test with electronic Load.
+- [x] Validate ratings
 
 
 See the [open issues](https://github.com/makingdevices/SolarCharger/issues) for a full list of proposed features (and known issues).
 
-State: Project <b>UNFINISHED</b> - 08/01/2023
+State: Project <b>FINISHED</b> - 12/09/2023
 
 Priority: <b>High</b>
 
