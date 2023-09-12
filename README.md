@@ -97,7 +97,31 @@ NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
 Instructions of use:
 
 - As soon as you connect a battery, the output voltage will be activated. 
-- The solar panel can go from 3V to 20V, as it uses the chip BQ24210.
+- The solar panel can go from 3V to 20V, as it uses the chip BQ24210. It will protect the battery if the voltage is too high.
+
+Protections:
+
+- Solar Panel
+  - Input voltage from 3V to 20V. It has over-voltage protection (OVP).
+  - NTC Sensor: The charging process is compatible with the JEITA temperature standard for Li-Ion batteries, limiting the charge of the battery depending of the temperature of it.
+  - Protection for short-circuit in the battery.
+
+- Battery
+  - Overcharge Detection Voltage at 4.2V (25mV accuracy)
+  - Overcharge Hysteresis Voltage Range. (Release at 4.1V)
+  - Overdischarge Detection Voltage at 2.5V.
+  - Overdischarge Hysteresis Voltage Range. (Release at 3.0V)
+  - Discharge overcurrent detection voltage. 
+  - Short current detection voltage.    
+  Note: You may want to select a different AP9214 configuration depending of your battery type. We have tested the AP9214L-AE-HSB.
+
+- Output
+  - Voltage fixed at 5V +-1.5%
+  - Undervoltage protection. 
+  - Overvoltage protection at 5.7V
+  - Overcurrent and shortcircuit protection (+1A). It will recuperate when the shortcircuit is released. 
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
