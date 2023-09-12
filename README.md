@@ -86,18 +86,18 @@ The solar charger uses the energy from a solar panel (using MPPT) to charge a Li
 <!-- GETTING STARTED -->
 
 ## Build one
-NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
+Documentation is updated.
 
+1. Get the gerber files for the latest version: [V1.0](https://github.com/makingdevices/SolarCharger/blob/main/Gerber/SolarCharger_v1.zip) 
+2. Send them to a PCB manufacturer ([Our Sponsor is PCBWAY][sponsor-url])
+3. You should solder all the components in the board. ([The schematic is available here v1.0][schematic-url])
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Instructions of use:
-
-- As soon as you connect a battery, the output voltage will be activated. 
-- The solar panel can go from 3V to 20V, as it uses the chip BQ24210. It will protect the battery if the voltage is too high.
+As soon as you connect a battery, the output voltage will be activated. 
 
 Protections:
 
@@ -200,3 +200,4 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[schematic-url]: /Output_PDF/schematic_V1.pdf
